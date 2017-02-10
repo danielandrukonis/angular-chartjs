@@ -1,40 +1,77 @@
 {
-  "name": "angular-seed",
-  "private": true,
-  "version": "0.0.0",
-  "description": "A starter project for AngularJS",
-  "repository": "https://github.com/angular/angular-seed",
-  "license": "MIT",
-  "devDependencies": {
-    "bower": "^1.7.7",
-    "http-server": "^0.9.0",
-    "jasmine-core": "^2.4.1",
-    "karma": "^0.13.22",
-    "karma-chrome-launcher": "^0.2.3",
-    "karma-firefox-launcher": "^0.1.7",
-    "karma-jasmine": "^0.3.8",
-    "karma-junit-reporter": "^0.4.1",
-    "protractor": "^4.0.9"
+  "_args": [
+    [
+      {
+        "raw": "@types/selenium-webdriver@2.53.37",
+        "scope": "@types",
+        "escapedName": "@types%2fselenium-webdriver",
+        "name": "@types/selenium-webdriver",
+        "rawSpec": "2.53.37",
+        "spec": "2.53.37",
+        "type": "version"
+      },
+      "/Users/danielandrukonis/angular-chartjs/node_modules/protractor"
+    ]
+  ],
+  "_from": "@types/selenium-webdriver@2.53.37",
+  "_id": "@types/selenium-webdriver@2.53.37",
+  "_inCache": true,
+  "_location": "/@types/selenium-webdriver",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/selenium-webdriver-2.53.37.tgz_1482184490763_0.7292482019402087"
   },
-  "scripts": {
-    "postinstall": "bower install",
-
-    "update-deps": "npm update",
-    "postupdate-deps": "bower update",
-
-    "prestart": "npm install",
-    "start": "http-server -a localhost -p 8000 -c-1 ./app",
-
-    "pretest": "npm install",
-    "test": "karma start karma.conf.js",
-    "test-single-run": "karma start karma.conf.js --single-run",
-
-    "preupdate-webdriver": "npm install",
-    "update-webdriver": "webdriver-manager update",
-
-    "preprotractor": "npm run update-webdriver",
-    "protractor": "protractor e2e-tests/protractor.conf.js",
-
-    "update-index-async": "node -e \"var fs=require('fs'),indexFile='app/index-async.html',loaderFile='app/bower_components/angular-loader/angular-loader.min.js',loaderText=fs.readFileSync(loaderFile,'utf-8').split(/sourceMappingURL=angular-loader.min.js.map/).join('sourceMappingURL=bower_components/angular-loader/angular-loader.min.js.map'),indexText=fs.readFileSync(indexFile,'utf-8').split(/\\/\\/@@NG_LOADER_START@@[\\s\\S]*\\/\\/@@NG_LOADER_END@@/).join('//@@NG_LOADER_START@@\\n'+loaderText+'    //@@NG_LOADER_END@@');fs.writeFileSync(indexFile,indexText);\""
-  }
+  "_npmUser": {
+    "name": "types",
+    "email": "ts-npm-types@microsoft.com"
+  },
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@types/selenium-webdriver@2.53.37",
+    "scope": "@types",
+    "escapedName": "@types%2fselenium-webdriver",
+    "name": "@types/selenium-webdriver",
+    "rawSpec": "2.53.37",
+    "spec": "2.53.37",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/protractor"
+  ],
+  "_resolved": "https://registry.npmjs.org/@types/selenium-webdriver/-/selenium-webdriver-2.53.37.tgz",
+  "_shasum": "34f743c20e53ae7100ede90870fde554df2447f8",
+  "_shrinkwrap": null,
+  "_spec": "@types/selenium-webdriver@2.53.37",
+  "_where": "/Users/danielandrukonis/angular-chartjs/node_modules/protractor",
+  "author": {
+    "name": "Bill Armstrong",
+    "email": "https://github.com/BillArmstrong"
+  },
+  "dependencies": {},
+  "description": "TypeScript definitions for Selenium WebDriverJS",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "34f743c20e53ae7100ede90870fde554df2447f8",
+    "tarball": "https://registry.npmjs.org/@types/selenium-webdriver/-/selenium-webdriver-2.53.37.tgz"
+  },
+  "license": "MIT",
+  "main": "",
+  "maintainers": [
+    {
+      "name": "types",
+      "email": "ryan.cavanaugh@microsoft.com"
+    }
+  ],
+  "name": "@types/selenium-webdriver",
+  "optionalDependencies": {},
+  "peerDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+  },
+  "scripts": {},
+  "typesPublisherContentHash": "bd4760bfc61f70ccb4cbbdcade1de0433a4d4d4e60667229840cda16fe9fafc1",
+  "version": "2.53.37"
 }
